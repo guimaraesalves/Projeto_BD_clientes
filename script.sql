@@ -10,3 +10,19 @@ d_dataclien date,
 c_cnpjclien varchar(20),
 c_foneclien varchar(20),
 primary key(n_numeclien));
+
+desc comclien;
+
+use comercial;
+
+create table comforne (
+n_numeforne int not null auto_increment,
+c_codiforne varchar(10),
+c_nomeforne varchar(100),
+c_razaforne varchar(100),
+c_foneforne varchar(20),
+primary key(n_numeforne));
+
+desc comforne;
+
+show tables;
