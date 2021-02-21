@@ -181,6 +181,9 @@ insert into comclien(n_numeclien, c_codiclien, c_nomeclien, c_razaclien, d_datac
  from comclien
  where c_razaclien like 'L%';
  
+ -- Selecionando registro, mas com repetição
+ select n_numeclien from comvenda;
+ 
  -- Distinct() seleciona um registro sem repetir no resultado
  select distinct n_numeclien
  from comvenda;
@@ -283,6 +286,8 @@ insert into comivenda values(41,18,5,'2325.32',6,0);
 
 
 select * from comivenda;
+
+
 
 
 
